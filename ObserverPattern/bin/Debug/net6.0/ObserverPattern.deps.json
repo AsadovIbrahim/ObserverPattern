@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ObserverPattern/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.2.0",
+          "EntityFramework.ru": "6.2.0"
+        },
+        "runtime": {
+          "ObserverPattern.dll": {}
+        }
+      },
+      "EntityFramework/6.2.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        }
+      },
+      "EntityFramework.ru/6.2.0": {
+        "dependencies": {
+          "EntityFramework": "6.2.0"
+        },
+        "resources": {
+          "lib/net45/ru/EntityFramework.SqlServer.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net45/ru/EntityFramework.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ObserverPattern/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
+      "path": "entityframework/6.2.0",
+      "hashPath": "entityframework.6.2.0.nupkg.sha512"
+    },
+    "EntityFramework.ru/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DROBt5aaifpmnT9ALLJU98j6cdEqdaNEXFyhTWewM8ywUF+XLiu0ROQ4ZpwCfLWcGFJBNRhPf76maOIVfAauxQ==",
+      "path": "entityframework.ru/6.2.0",
+      "hashPath": "entityframework.ru.6.2.0.nupkg.sha512"
+    }
+  }
+}

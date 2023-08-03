@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern
 {
-    internal interface IObserver
+    public interface IObserver
     {
+        void Update(ISubject subject);
+
     }
 }
